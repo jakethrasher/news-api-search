@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
 import React from 'react'
-import {screen, render, findByRole} from '@testing-library/react'
+import {screen, render, findByRole, waitFor} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import ArticlesContainer from './ArticlesContainer'
 
@@ -15,5 +15,11 @@ describe('ArticlesContainer', ()=>{
         expect(ul).not.toBeEmptyDOMElement()
 
         const input = await screen.findByLabelText('Search By Keyword')
+        userEvent.type(input,'Bitcoin')
+
+        const submitButton = await screen.findByRole('button',{name: 'search-articles'})
+        userEvent.click(submitButton)
+        
+        expect(ul).toMatchSnapshot();
     })
 })

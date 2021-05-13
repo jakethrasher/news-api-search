@@ -10,7 +10,7 @@ export const fetchArticles = async(keyword)=>{
 }
 
 export const fetchHeadlines = async () =>{
-    const res = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}`)
+    const res = await fetch(`https://newsapi.org/v2/top-headlines?country=us&pageSize=10&apiKey=${process.env.API_KEY}`)
 
     const json = await res.json();
 

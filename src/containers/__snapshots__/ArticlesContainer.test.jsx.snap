@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticlesContainer should render a list of articles 1`] = `
+<ul
+  aria-label="articles"
+>
+  <li>
+    <figure>
+      <img
+        src="https://chorus.stimg.co/22512071/ows_954b809a_04dc_45b4_8f23_d6841aa514d0.jpg?h=630&w=1200&fit=crop&bg=999&crop=faces"
+      />
+      <a
+        href="https://www.startribune.com/younger-teens-start-receiving-covid-19-vaccine-in-minnesota/600056812/"
+      >
+        <figcaption>
+          Younger teens start receiving COVID-19 vaccine in Minnesota - Minneapolis Star Tribune
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://ichef.bbci.co.uk/news/1024/branded_news/CDA9/production/_118494625_cameronpamedia.jpg"
+      />
+      <a
+        href="https://www.bbc.com/news/uk-politics-57104234"
+      >
+        <figcaption>
+          David Cameron: I was paid far more at Greensill than as PM - BBC News
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://thehill.com/sites/default/files/capitol-riot_010621getty_oath-keepers.jpg"
+      />
+      <a
+        href="https://thehill.com/policy/defense/553391-active-duty-marine-officer-arrested-facing-multiple-charges-in-jan-6-riot"
+      >
+        <figcaption>
+          First active duty service member arrested over Jan. 6 riot | TheHill - The Hill
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://image.cnbcfm.com/api/v1/image/106882809-1620931393766-106882809-16209305632021-05-04t164019z_180288951_rc249n90dtdo_rtrmadp_0_health-coronavirus-usa.jpg?v=1620931418"
+      />
+      <a
+        href="https://www.cnbc.com/2021/05/13/cdc-says-fully-vaccinated-people-dont-need-to-wear-face-masks-indoors-or-outdoors-in-most-settings.html"
+      >
+        <figcaption>
+          CDC says fully vaccinated people don't need to wear face masks indoors or outdoors in most settings - CNBC
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://images.wsj.net/im-338063/social"
+      />
+      <a
+        href="https://www.wsj.com/articles/amazon-hiring-75-000-workers-offering-1-000-signing-bonus-in-some-locations-11620915982"
+      >
+        <figcaption>
+          Amazon Hiring 75,000 Workers, Offering Some $1,000 Signing Bonuses - The Wall Street Journal
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://variety.com/wp-content/uploads/2017/11/friends-e1562857358291.jpg?w=890"
+      />
+      <a
+        href="https://variety.com/2021/tv/news/friends-reunion-special-hbo-max-premiere-date-2-1234972420/"
+      >
+        <figcaption>
+          ‘Friends’ Reunion Special at HBO Max to Premiere in May, Drops First Teaser - Variety
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F0207%2Fr811959_1296x729_16%2D9.jpg"
+      />
+      <a
+        href="https://www.espn.com/nfl/story/_/id/31438914/tom-brady-sr-says-salivating-tampa-bay-buccaneers-new-england-patriots-week-4-matchup"
+      >
+        <figcaption>
+          Tom Brady Sr. says he's 'salivating' over Tampa Bay Buccaneers-New England Patriots Week 4 matchup - ESPN
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fbc136f99-e433-45fc-9880-03e3ca767b15.jpg?source=next-opengraph&fit=scale-down&width=900"
+      />
+      <a
+        href="https://www.ft.com/content/b917ec4f-8b57-45dc-82ba-960d82ad7974"
+      >
+        <figcaption>
+          Elon Musk wakes up to bitcoin’s fossil fuel issues - Financial Times
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://image.cnbcfm.com/api/v1/image/106644997-1596460714086-aba.jpg?v=1620924052"
+      />
+      <a
+        href="https://www.cnbc.com/2021/05/13/michael-jordans-trainer-principles-for-winning.html"
+      >
+        <figcaption>
+          Traits that help you win at anything, according Michael Jordan's trainer - CNBC
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        src="https://i.dailymail.co.uk/1s/2021/05/13/18/42955336-0-image-a-30_1620925998289.jpg"
+      />
+      <a
+        href="https://www.dailymail.co.uk/news/article-9575995/State-judge-postpones-trial-three-Minneapolis-officers-George-Floyds-death.html"
+      >
+        <figcaption>
+          State judge postpones trial of three Minneapolis officers in George Floyd's death - Daily Mail
+        </figcaption>
+      </a>
+    </figure>
+  </li>
+</ul>
+`;

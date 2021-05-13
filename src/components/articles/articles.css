@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(242, 240, 238);
+}
+li{ 
+    background-color: white;
+    width: 25em;
+    list-style: none;
+    word-wrap: break-word;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: linear 200ms;
+}
+li:hover{
+ box-shadow: rgba(86, 86, 92, 0.2) 0px 7px 29px 0px;
+}
+img{
+    object-fit:scale-down;
+    width:16em;
+}
+a{  
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 200;
+    color:rgb(87, 85, 85);
+}
+ul{
+    margin:0 auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+}

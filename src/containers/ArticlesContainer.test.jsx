@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import React from 'react'
 import {screen, render} from '@testing-library/react'
 import ArticlesContainer from './ArticlesContainer'

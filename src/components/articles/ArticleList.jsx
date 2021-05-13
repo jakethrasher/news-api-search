@@ -2,13 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Article from './Article'
 import './articles.css'
+
 function ArticleList({articles}) {
     return (
-        <ul>
+        <ul aria-label='articles'>
             {articles.map(article=>(
-                <li>
+                <li key={`${article.title}-${article.image}`}>
                     <Article
-                    author={article.author}
                     title={article.title}
                     image={article.image}
                     url={article.url}
@@ -21,9 +21,8 @@ function ArticleList({articles}) {
 
 ArticleList.propTypes = {
     articles: PropTypes.arrayOf(PropTypes.shape({
-        author: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
-        image: PropTypes.string.isRequired,
+        image: PropTypes.string,
         url:PropTypes.string.isRequired
     }))
 }
